@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Prayer Grid</string>
+
+    <string name="no_internet">Internet connection is not available at the  moment. Please try again later.</string>
+    <string name="wrong">Something wrong, try again later.</string>
+    <string name="tc_txt">I have read and agree to the <p style="text-decoration: underline;text-decoration-color: red;"><font color="#f3f3f3">terms and conditions.</font></p></string>
+
+    <string name="donation_url">https://www.aplos.com/aws/give/ThePrayerPeopleInc/Partner</string>
+
+    <string name="progress">The work is in progress.</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+
+    <string name="txt_takefromcamera">Take from camera</string>
+    <string name="txt_selectfromgallery">Pick from gallary</string>
+    <string name="txt_completeActionusing">Complete action using...</string>
+    <string name="txt_selectimage">Select Image</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="forgot">Enter your email address and we’ll send you instructions on how to change your password.
+    </string>
+    <string name="title_activity_time_line">TimeLineActivity</string>
+    <string name="title_activity_curch_registration">Church Registration</string>
+
+
+    <string name="c_first">Automatically approve requests to join church prayer group.</string>
+    <string name="c_second">Do you want notified when prayer requests are posted? </string>
+    <string name="c_third">Would you like to contribute recorded sermons to ThePrayerPeople TV for the purpose of sharing the Gospel to the world?</string>
+    <string name="authorize_txt">I am AUTHORIZED to enroll the above listed church into this prayer program.</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_member_list">Members</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_testdrawer">TESTDRAWER</string>
+
+
+    <string name="report_msg">Admin will review this post! \n Thanks</string>
+
+    <string-array name="category">
+        <item>All Categories</item>
+        <item>General</item>
+        <item>School / Education</item>
+        <item>Careers &amp; Business</item>
+        <item>Travel</item>
+        <item>Finances</item>
+        <item>Health / Healing</item>
+        <item>Family &amp; Relationships</item>
+        <item>Addictions / Abuse</item>
+        <item>Emotions</item>
+    </string-array>
+    <string-array name="category_post">
+        <item>General</item>
+        <item>School / Education</item>
+        <item>Careers &amp; Business</item>
+        <item>Travel</item>
+        <item>Finances</item>
+        <item>Health / Healing</item>
+        <item>Family &amp; Relationships</item>
+        <item>Addictions / Abuse</item>
+        <item>Emotions</item>
+    </string-array>
+
+
+    <string name="pray">Pray</string>
+    <string name="prayed">Prayed</string>
+    <string name="my_prayer">My Prayers For Others</string>
+    <string name="anonymous">Anonymous</string>
+
+    <string name="gcm_SenderId">474809319078</string>
+
+    <string name="pray_want_notify_txt">Do you want notified when someone prays for you?</string>
+    <string name="comment_want_notify_txt">Do you want notified when someone comments on your prayer requests?</string>
+    <string name="title_activity_view_user_message_list">ViewUserMessageList</string>
+    <string name="title_activity_send_message">SendMessageActivity</string>
+    <string name="title_activity_create_group">CreateGroupActivity</string>
+</resources>

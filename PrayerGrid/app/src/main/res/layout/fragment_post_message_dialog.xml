@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:padding="5dp"
+    tools:context="com.widevision.prayergrid.fragment.PostMessageDialogFragment">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.widevision.prayergrid.model.CustomTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send Message"
+            android:textColor="@color/text_color"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/closebtn"
+            android:id="@+id/close_btn"/>
+    </LinearLayout>
+
+
+    <com.widevision.prayergrid.model.CustomEditText
+        android:id="@+id/msg_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_margin="5dp"
+        android:background="@drawable/message_gradient"
+        android:gravity="start"
+        android:hint="Message"
+        android:lines="3"
+        android:maxLines="3"
+        android:padding="3dp"
+        android:textColor="@color/text_color"
+        android:textColorHint="@color/text_color" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/msg_txt"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg_round_corner"
+        android:text="Send"
+        android:textColor="#ffffff"
+        android:id="@+id/send_btn"/>
+</RelativeLayout>

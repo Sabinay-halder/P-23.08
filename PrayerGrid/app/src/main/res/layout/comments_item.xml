@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/name_txt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="D"
+            android:textColor="#ffffff"
+            android:textSize="55dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pray" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/action_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_delete_24dp"
+            android:tint="@color/colorPrimary" />
+
+        <com.widevision.prayergrid.model.CustomTextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testtetsteststsetsetest"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+
+        <com.widevision.prayergrid.model.CustomTextView
+            android:id="@+id/comments_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="testtetsteststsetsetes sdf sdf sdf s fsdf sdfsdfdsfsdf sdfsdf sdf sdf sdf sdf dsf dsf sdf sdfsdfsdfsd fds fdsfdsfdsfdsfdsfdsfdsfdsfdsfdsfdsfdsfdsfdsfsdfdsfdsfsfs fs dfsd fsd fdsfsdfsdfsdfdsf dsfdsfsdfdst"
+            android:textColor="@color/text_color"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>

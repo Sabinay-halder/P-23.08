@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/linear1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/text_color"
+    android:orientation="vertical">
+    <com.widevision.prayergrid.model.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="List of Churches"
+        android:textColor="@color/white"/>
+</LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_church"
+        android:layout_below="@+id/linear1"></ListView>
+</RelativeLayout>
